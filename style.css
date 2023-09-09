@@ -1,0 +1,51 @@
+.carousel-indicators {
+  position: absolute;
+  bottom: 50px;
+  /* left: 50px; */
+  margin: 0 auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #793fdf;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* z-index: 10; */
+}
+
+.i.bi.bi-arrow-left-square-fill {
+  color: rgb(32, 0, 121);
+  font-size: 4rem;
+}
+
+.i.bi.bi-arrow-right-square-fill {
+  color: rgb(32, 0, 121);
+  font-size: 4rem;
+}
+
+/* img.img-fluid.indicator-image {
+  position: absolute;
+  max-height: 100%;
+  left: 10%;
+} */
+
+/* .nav-item {
+  justify-content: end;
+} */
+/* 
+.carousel-inner {
+  position: relative;
+} */
+
+/* element.style {
+  position: fixed;
+  z-index: 10;
+} */

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Carousel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="relative">
+      <div class="carousel">
+        <div class="carousel-inner">
+          <input
+            type="radio"
+            name="carousel"
+            class="carousel-open"
+            id="carousel-1"
+            checked
+          />
+          <div class="carousel-item absolute opacity-0">
+            <img src="images/ORANGE.png" alt="Image 1" class="w-full" />
+          </div>
+          <input
+            type="radio"
+            name="carousel"
+            class="carousel-open"
+            id="carousel-2"
+          />
+          <div class="carousel-item absolute opacity-0">
+            <img src="image2.jpg" alt="Image 2" class="w-full" />
+          </div>
+          <input
+            type="radio"
+            name="carousel"
+            class="carousel-open"
+            id="carousel-3"
+          />
+          <div class="carousel-item absolute opacity-0">
+            <img src="image3.jpg" alt="Image 3" class="w-full" />
+          </div>
+          <label for="carousel-3" class="carousel-control prev control-1"
+            >‹</label
+          >
+          <label for="carousel-2" class="carousel-control next control-1"
+            >›</label
+          >
+          <label for="carousel-1" class="carousel-control prev control-2"
+            >‹</label
+          >
+          <label for="carousel-3" class="carousel-control next control-2"
+            >›</label
+          >
+          <label for="carousel-2" class="carousel-control prev control-3"
+            >‹</label
+          >
+          <label for="carousel-1" class="carousel-control next control-3"
+            >›</label
+          >
+          <ol class="carousel-indicators">
+            <li class="inline-block mr-3">
+              <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li class="inline-block">
+              <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
